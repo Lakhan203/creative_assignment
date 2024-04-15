@@ -666,33 +666,32 @@ section {
     border-color: #9747FF !important;
 }
 
-.work-container .work .card:hover .overlay .card-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    border-color: #9747FF;
+.work-container .work .card .overlay .card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border-color: #9747FF;
 }
 
-.work-container .work .card:hover .overlay .card-image {
-    text-align: center !important;
+.work-container .work .card .overlay .card-image {
+  text-align: center !important;
 }
-
-.work-container .work .card:hover .overlay .card-text .card-heading {
+.work-container .work .card .overlay .card-text .card-heading{
     margin-top: 7px;
     font-size: 16px;
     font-weight: 500;
 }
 
-.work-container .work .card:hover .overlay .card-text .card-sub {
-    font-size: 12px;
-    font-weight: 300;
+.work-container .work .card .overlay .card-text .card-sub{
+  font-size: 12px;
+  font-weight: 300;
 }
 
-.work-container .work .card:hover .overlay .card-text .card-para {
-    font-size: 12px;
-    font-weight: 400;
+.work-container .work .card .overlay .card-text .card-para{
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .work-container .dropdown-section .all-projects {
