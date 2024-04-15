@@ -51,26 +51,113 @@
 
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-sm-10">
+                            <div class="col-sm-12 col-lg-10">
                                 <button class="custom-btn" aria-label="Read More">
                                     <div class="">Read More </div><img src="{{ asset('assets/vector.png') }}"
                                         class="img-fluid btn-image" height="15" width="15px" alt="">
                                 </button>
                             </div>
-                            <div class="col-sm-2">
-                                <img src="{{ asset('assets/mouse.png') }}" class="img-fluid mouse" height="100"
-                                    width="100" alt="mouse">
+                            <div class="col-sm-12 col-lg-2">
+                                <img src="{{ asset('assets/mouse.png') }}"
+                                    class="img-fluid mouse"
+                                    id="mouse-rotate" height="100" width="100" alt="mouse">
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </section>
+
         <section class="section-four">
-            <h1>Four one</h1>
+
+            <div class="container">
+                <h1 class="heading">We are the jack-of-all-trades & master of fun!</h1>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 section-four-image text-end">
+                        <img src="{{asset('assets/section_3_image.png')}}" class="animate__animated animate__bounce animate__slower animate__infinite infinite" alt="image">
+                    </div>
+                    <div class="col-lg-6 section-content">
+                        <h1 class="heading">Mainline Advertising</h1>
+                        <h4 class="sub-title">TV,Print,Radio,Brand,Strategy</h4>
+                    </div>
+                </div>
+            </div>
+
         </section>
+
+        <section class="section-five">
+            <img src="{{asset('assets/section_5_background.png')}}" class="video-content" alt="">
+        </section>
+        <section class="section-six">
+            <div class="container heading">
+                <h1>RECOMMENDED BY</h1>
+                <h1>THE BEST</h1>
+            </div>
+            <div class="container-fluid mt-5">
+                <marquee height="100%" direction="left" behavior="scroll" scrollamount="10">
+                    <div class="d-flex mx-5 brand-slider">
+                        <img src="{{asset('assets/brand_1.png')}}" class="brand-image" alt="brand1" >
+                        <img src="{{asset('assets/brand_2.png')}}" class="brand-image" alt="brand2" >
+                        <img src="{{asset('assets/brand_3.png')}}" class="brand-image" alt="brand3" >
+                        <img src="{{asset('assets/brand_4.png')}}" class="brand-image" alt="brand4" >
+                        <img src="{{asset('assets/brand_5.png')}}" class="brand-image" alt="brand4" >
+                        <img src="{{asset('assets/brand_6.png')}}" class="brand-image" alt="brand4" >
+                        <img src="{{asset('assets/brand_1.png')}}" class="brand-image" alt="brand4" >
+                        <img src="{{asset('assets/brand_2.png')}}" class="brand-image" alt="brand4" >
+                        <img src="{{asset('assets/brand_3.png')}}" class="brand-image" alt="brand4" >
+                        <img src="{{asset('assets/brand_4.png')}}" class="brand-image" alt="brand4" >
+                        <img src="{{asset('assets/brand_1.png')}}" class="brand-image" alt="brand1" >
+                        <img src="{{asset('assets/brand_2.png')}}" class="brand-image" alt="brand2" >
+                        <img src="{{asset('assets/brand_3.png')}}" class="brand-image" alt="brand3" >
+                        <img src="{{asset('assets/brand_4.png')}}" class="brand-image" alt="brand4" >
+                        <img src="{{asset('assets/brand_5.png')}}" class="brand-image" alt="brand4" >
+                        <img src="{{asset('assets/brand_6.png')}}" class="brand-image" alt="brand4" >
+                        <img src="{{asset('assets/brand_1.png')}}" class="brand-image" alt="brand4" >
+                        <img src="{{asset('assets/brand_2.png')}}" class="brand-image" alt="brand4" >
+                        <img src="{{asset('assets/brand_3.png')}}" class="brand-image" alt="brand4" >
+                        <img src="{{asset('assets/brand_4.png')}}" class="brand-image" alt="brand4" >
+                    </div>
+                </marquee>
+            </div>
+
+        </section>
+        <section class="section-seven">
+            <div class="container heading">
+                <h1>What’s Going on!</h1>
+                <h1>check out our latest Social posts</h1>
+            </div>
+            <br>
+            <div class="container mt-5">
+                <div class="row text-center">
+                    <div class="col-sm-12 col-md-4 col-lg-3 my-2">
+                        <img src="{{asset('assets/social_1.png')}}" class="img-fluid social-post" alt="social-media">
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-3 my-2">
+                        <img src="{{asset('assets/social_2.png')}}" class="img-fluid social-post" alt="social-media">
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-3 my-2">
+                        <img src="{{asset('assets/social_3.png')}}" class="img-fluid social-post" alt="social-media">
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-3 my-2">
+                        <img src="{{asset('assets/social_4.png')}}" class="img-fluid social-post" alt="social-media">
+                    </div>
+                </div>
+            </div>
+            <div class="container text-secondary text-end fw-normal mt-3"><span class="">View More</span></div>
+        </section>
+
+        <section class="section-eight">
+            <div class="container join-section">
+                <h1 class="heading">JOIN THE BRANDWAGON</h1>
+                <button class="custom-btn" aria-label="Let's do Business">
+                    <div class="">Let's do Business</div>
+                </button>
+            </div>
+        </section>
+
         {{-- <div class="container-fluid p-0 main">
         <section class="one">
             <h1>Page one</h1>
