@@ -10,7 +10,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-sm-12 col-lg-4 mb-sm-2 mb-lg-0">
-                                    <div class="dropdown">
+                                    <div class="dropdown mb-2">
                                         <div class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                           Type of Clients
                                         </div>
@@ -21,7 +21,7 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-lg-4 mb-sm-2 mb-lg-0">
-                                    <div class="dropdown">
+                                    <div class="dropdown mb-2">
                                         <div class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                           Type of Work
                                         </div>
@@ -31,13 +31,13 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-lg-4 mb-sm-2 mb-lg-0 text-end all-projects"><a onclick="filterSelection('all')">All Projects</a></div>
-            
+                                <div class="col-sm-12 col-lg-4 mb-sm-2 mb-lg-0 mb-2 text-sm-start text-lg-end all-projects"><a onclick="filterSelection('all')">All Projects</a></div>
+
                             </div>
                         </div>
 
                     </div>
-         
+
                     <div class="col-lg-4 col-md-4 col-sm-6 column client1">
                         <div class="card">
                             <img src="{{asset('assets/portfolio.png')}}"
